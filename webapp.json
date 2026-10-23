@@ -11,7 +11,7 @@
           "id": "thunion-wiki",
           "title": "THUnion Wiki",
           "description": "查看社团 Wiki 中的文档、说明与知识条目。点击打开后，在启动器内浏览 Wiki 网站。",
-          "url": "https://wiki.thunion.club/"
+          "url": "http://wiki.thunion.club/"
         }
       ]
     },
@@ -24,7 +24,7 @@
           "id": "thunion-map",
           "title": "THUnion 在线地图",
           "description": "查看服务器提供的在线地图，在网页中缩放、平移并浏览地图内容。此工具与启动器的本地种子地图相互独立。",
-          "url": "https://map.thunion.club/"
+          "url": "http://map.thunion.club/"
         }
       ]
     }

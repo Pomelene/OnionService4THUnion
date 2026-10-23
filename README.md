@@ -6,12 +6,12 @@
 
 ## 修改目录
 
-`schema_version` 当前为 `1`。`categories` 是子工具目录列表，每个目录包含唯一的 `id`、显示名称 `title`、用途说明 `description` 和 `tools` 列表。工具也包含 `id`、`title`、`description`，以及 HTTPS 网址 `url`。可增加多个目录，每个目录也可容纳多个工具。
+`schema_version` 当前为 `1`。`categories` 是子工具目录列表，每个目录包含唯一的 `id`、显示名称 `title`、用途说明 `description` 和 `tools` 列表。工具也包含 `id`、`title`、`description`，以及 HTTP(S) 网址 `url`。可增加多个目录，每个目录也可容纳多个工具。配置本身始终通过 GitHub 的 HTTPS 原始文件地址读取。
 
 当前实验入口：
 
-- **社团 Wiki**：<https://wiki.thunion.club/>，浏览 Wiki 文档与知识条目。
-- **在线地图**：<https://map.thunion.club/>，浏览服务器在线地图。
+- **社团 Wiki**：<http://wiki.thunion.club/>，浏览 Wiki 文档与知识条目。当前会重定向到站点维护者的 Wiki 地址。
+- **在线地图**：<http://map.thunion.club/>，浏览服务器在线地图。
 
 配置只描述页面入口，不包含程序、脚本、安装命令、账号、令牌或密钥。客户端不会把启动器的微软登录令牌发送给这些网页。网站功能和访问限制由对应站点自行维护。
 
