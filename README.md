@@ -6,7 +6,7 @@
 
 ## 修改目录
 
-`schema_version` 当前为 `1`。`categories` 是子工具目录列表，每个目录包含唯一的 `id`、显示名称 `title`、用途说明 `description` 和 `tools` 列表。工具也包含 `id`、`title`、`description`，以及 HTTP(S) 网址 `url`。可增加多个目录，每个目录也可容纳多个工具。配置本身始终通过 GitHub 的 HTTPS 原始文件地址读取。
+`schema_version` 当前为 `1`。`categories` 是子工具目录列表，每个目录包含唯一的 `id`、显示名称 `title`、用途说明 `description` 和 `tools` 列表。工具也包含 `id`、`title`、`description`，以及 HTTP(S) 网址 `url`。可增加多个目录，每个目录也可容纳多个工具。配置本身通过 GitHub HTTPS Contents API 的 raw 响应读取，避免分支 raw 地址的短时缓存。
 
 当前实验入口：
 
