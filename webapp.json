@@ -18,13 +18,19 @@
     {
       "id": "map",
       "title": "在线地图",
-      "description": "在网页中浏览服务器地图。",
+      "description": "选择服务器在线地图；Atlas 另提供离线导航模组下载。",
       "tools": [
         {
           "id": "thunion-map",
           "title": "THUnion 在线地图",
           "description": "查看服务器提供的在线地图，在网页中缩放、平移并浏览地图内容。此工具与启动器的本地种子地图相互独立。",
           "url": "http://map.thunion.club/"
+        },
+        {
+          "id": "thunion-atlas",
+          "title": "THUnion Atlas",
+          "description": "浏览 Atlas 在线地图；网站同时提供离线导航模组下载，可按站内说明获取。",
+          "url": "https://atlas.thunion.net/"
         }
       ]
     }
