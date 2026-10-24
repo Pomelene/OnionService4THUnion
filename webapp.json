@@ -96,6 +96,26 @@
       "layout": "list",
       "icon": "world",
       "show_urls": false
+    },
+    {
+      "id": "official-accounts",
+      "title": "社团官号",
+      "description": "社团官方账号与内容发布平台。",
+      "layout": "list",
+      "icon": "world",
+      "show_urls": false,
+      "tools": [
+        {
+          "id": "thunion-bilibili",
+          "title": "社团哔哩哔哩官号",
+          "description": "访问社团哔哩哔哩主页，查看发布的视频与动态。",
+          "url": "https://space.bilibili.com/580260285",
+          "action": "web",
+          "icon": "world",
+          "button_text": "访问主页",
+          "badge": "哔哩哔哩"
+        }
+      ]
     }
   ],
   "$schema": "./webapp.schema.json",
