@@ -43,6 +43,16 @@
           "url": "https://github.com/Pomelene/Pomelene-s-Notebot",
           "icon": "world",
           "button_text": "查看项目"
+        },
+        {
+          "id": "detransliteration-japanese",
+          "title": "DeTransliterationJapanese（日语去音译语言包）",
+          "description": "Minecraft 日语去音译语言包：将片假名音译词替换为对应的原语言表记。打开项目页查看语言包文件并下载。",
+          "url": "https://github.com/MechtaSnezhevna/DeTransliterationJapanese",
+          "action": "web",
+          "icon": "world",
+          "button_text": "查看语言包",
+          "badge": "日语"
         }
       ],
       "layout": "list",
