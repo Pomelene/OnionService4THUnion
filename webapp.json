@@ -1,7 +1,54 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "title": "THUnion 社团服务",
   "categories": [
+    {
+      "id": "member-sharing",
+      "title": "部员分享",
+      "description": "部员分享的整合包、地图下载指引与开源工具。",
+      "tools": [
+        {
+          "id": "thunion-basic-263",
+          "title": "三周目快速上服基础包",
+          "description": "Minecraft 26.3 · Fabric 0.19.5。下载 263THUnionBasic.mrpack 后可导入启动器；文件由本仓库直接提供。",
+          "url": "https://raw.githubusercontent.com/Pomelene/OnionService4THUnion/main/263THUnionBasic.mrpack",
+          "action": "download",
+          "filename": "263THUnionBasic.mrpack",
+          "size": 1282708,
+          "sha256": "bfbe5127ae08a0e83e5c9560819be219043fadb5c183c5c1f6f2479903a140c7",
+          "icon": "download",
+          "button_text": "下载整合包",
+          "badge": "26.3 / Fabric"
+        },
+        {
+          "id": "atlas-offline-guide",
+          "title": "Atlas 离线地图下载指引",
+          "description": "打开 Atlas 指引页面，按网站说明下载离线地图。",
+          "url": "https://atlas.thunion.net/guide.html",
+          "icon": "world",
+          "button_text": "查看下载指引"
+        },
+        {
+          "id": "litematica-flex",
+          "title": "Litematica-Flex",
+          "description": "Pomelene 的 Litematica-Flex 项目，查看项目说明与下载版本。",
+          "url": "https://github.com/Pomelene/Litematica-Flex",
+          "icon": "world",
+          "button_text": "查看项目"
+        },
+        {
+          "id": "pomelene-notebot",
+          "title": "Pomelene's Notebot",
+          "description": "Pomelene 的 Notebot 项目，查看项目说明与下载版本。",
+          "url": "https://github.com/Pomelene/Pomelene-s-Notebot",
+          "icon": "world",
+          "button_text": "查看项目"
+        }
+      ],
+      "layout": "list",
+      "icon": "tools",
+      "show_urls": false
+    },
     {
       "id": "wiki",
       "title": "社团 Wiki",
@@ -13,7 +60,10 @@
           "description": "查看社团 Wiki 中的文档、说明与知识条目。点击打开后，在启动器内浏览 Wiki 网站。",
           "url": "http://wiki.thunion.club/"
         }
-      ]
+      ],
+      "layout": "list",
+      "icon": "folder",
+      "show_urls": false
     },
     {
       "id": "map",
@@ -32,7 +82,12 @@
           "description": "浏览 Atlas 在线地图；网站同时提供离线导航模组下载，可按站内说明获取。",
           "url": "https://atlas.thunion.net/"
         }
-      ]
+      ],
+      "layout": "list",
+      "icon": "world",
+      "show_urls": false
     }
-  ]
+  ],
+  "$schema": "./webapp.schema.json",
+  "default_category": "member-sharing"
 }

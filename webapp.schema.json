@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Pomelene/OnionService4THUnion/main/webapp.schema.json",
+  "title": "Onion THUnion Service Catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "title",
+    "categories"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1,
+        2
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "pattern": "^[^\\u0000-\\u001f]*$"
+    },
+    "default_category": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[^\\u0000-\\u001f]*$"
+    },
+    "categories": {
+      "type": "array",
+      "maxItems": 24,
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    }
+  },
+  "$defs": {
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "description",
+        "tools"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[^\\u0000-\\u001f]*$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[^\\u0000-\\u001f]*$"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400,
+          "pattern": "^[^\\u0000-\\u001f]*$"
+        },
+        "layout": {
+          "enum": [
+            "cards",
+            "list"
+          ]
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "show_urls": {
+          "type": "boolean"
+        },
+        "icon": {
+          "enum": [
+            "folder",
+            "world",
+            "tools",
+            "package",
+            "download",
+            "upload",
+            "grid",
+            "image",
+            "schematic",
+            "home",
+            "java",
+            "skin",
+            "history",
+            "rocket"
+          ]
+        },
+        "tools": {
+          "type": "array",
+          "maxItems": 32,
+          "items": {
+            "$ref": "#/$defs/tool"
+          }
+        }
+      }
+    },
+    "tool": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "description",
+        "url"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[^\\u0000-\\u001f]*$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[^\\u0000-\\u001f]*$"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 800,
+          "pattern": "^[^\\u0000-\\u001f]*$"
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2048,
+          "pattern": "^https?://[^\\s]+$"
+        },
+        "action": {
+          "enum": [
+            "web",
+            "external",
+            "download",
+            "copy"
+          ]
+        },
+        "button_text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32,
+          "pattern": "^[^\\u0000-\\u001f]*$"
+        },
+        "badge": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 24,
+          "pattern": "^[^\\u0000-\\u001f]*$"
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "show_urls": {
+          "type": "boolean"
+        },
+        "icon": {
+          "enum": [
+            "folder",
+            "world",
+            "tools",
+            "package",
+            "download",
+            "upload",
+            "grid",
+            "image",
+            "schematic",
+            "home",
+            "java",
+            "skin",
+            "history",
+            "rocket"
+          ]
+        },
+        "filename": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160,
+          "pattern": "^[^<>:\"/\\\\|?*\\u0000-\\u001f]+\\.[mM][rR][pP][aA][cC][kK]$"
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 268435456
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{64}$"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "download"
+              }
+            },
+            "required": [
+              "action"
+            ]
+          },
+          "then": {
+            "required": [
+              "filename",
+              "size",
+              "sha256"
+            ],
+            "properties": {
+              "url": {
+                "pattern": "^https://"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
