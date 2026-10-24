@@ -22,8 +22,8 @@
         },
         {
           "id": "atlas-offline-guide",
-          "title": "Atlas 路径点导航与假人挂机模组下载指引",
-          "description": "打开 Atlas 指引页面，按网站说明下载路径点导航与假人挂机模组。",
+          "title": "Atlas 路径点导航与真人 AFK模组下载指引",
+          "description": "打开 Atlas 指引页面，按网站说明下载路径点导航与真人 AFK模组。",
           "url": "https://atlas.thunion.net/guide.html",
           "icon": "world",
           "button_text": "查看下载指引"
@@ -78,7 +78,7 @@
     {
       "id": "map",
       "title": "在线地图",
-      "description": "选择服务器在线地图；Atlas 另提供路径点导航与假人挂机模组下载。",
+      "description": "选择服务器在线地图；Atlas 另提供路径点导航与真人 AFK模组下载。",
       "tools": [
         {
           "id": "thunion-map",
@@ -89,7 +89,7 @@
         {
           "id": "thunion-atlas",
           "title": "THUnion Atlas",
-          "description": "浏览 Atlas 在线地图；网站同时提供路径点导航与假人挂机模组下载，可按站内说明获取。",
+          "description": "浏览 Atlas 在线地图；网站同时提供路径点导航与真人 AFK模组下载，可按站内说明获取。",
           "url": "https://atlas.thunion.net/"
         }
       ],
