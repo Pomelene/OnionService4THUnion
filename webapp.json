@@ -10,7 +10,7 @@
         {
           "id": "thunion-basic-263",
           "title": "三周目快速上服基础包",
-          "description": "Minecraft 26.3 · Fabric 0.19.5。下载 263THUnionBasic.mrpack 后可导入启动器；文件由本仓库直接提供。",
+          "description": "Minecraft 26.3 · Fabric 0.19.5。下载 263THUnionBasic.mrpack 后可导入启动器；文件从github提供。",
           "url": "https://raw.githubusercontent.com/Pomelene/OnionService4THUnion/main/263THUnionBasic.mrpack",
           "action": "download",
           "filename": "263THUnionBasic.mrpack",
@@ -31,7 +31,7 @@
         {
           "id": "litematica-flex",
           "title": "Litematica-Flex",
-          "description": "Pomelene 的 Litematica-Flex 项目，查看项目说明与下载版本。",
+          "description": "柚烯 的 Litematica-Flex 项目，查看项目说明与下载版本。",
           "url": "https://github.com/Pomelene/Litematica-Flex",
           "icon": "world",
           "button_text": "查看项目"
@@ -39,7 +39,7 @@
         {
           "id": "pomelene-notebot",
           "title": "Pomelene's Notebot",
-          "description": "Pomelene 的 Notebot 项目，查看项目说明与下载版本。",
+          "description": "柚烯 的 Notebot 项目，查看项目说明与下载版本。",
           "url": "https://github.com/Pomelene/Pomelene-s-Notebot",
           "icon": "world",
           "button_text": "查看项目"
@@ -57,7 +57,7 @@
         {
           "id": "thunion-wiki",
           "title": "THUnion Wiki",
-          "description": "查看社团 Wiki 中的文档、说明与知识条目。点击打开后，在启动器内浏览 Wiki 网站。",
+          "description": "查看社团 Wiki 中的文档、说明与知识条目。点击在启动器内浏览 Wiki 网站。",
           "url": "http://wiki.thunion.club/"
         }
       ],
@@ -73,7 +73,7 @@
         {
           "id": "thunion-map",
           "title": "THUnion 在线地图",
-          "description": "查看服务器提供的在线地图，在网页中缩放、平移并浏览地图内容。此工具与启动器的本地种子地图相互独立。",
+          "description": "查看服务器提供的在线地图，在网页中缩放、平移并浏览地图内容。",
           "url": "http://map.thunion.club/"
         },
         {
