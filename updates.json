@@ -7,8 +7,8 @@
       "order": 33,
       "platform": "windows-x64",
       "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.3-T/OnionMinecraftLauncher-v0.3.3-T.exe",
-      "size": 32064722,
-      "sha256": "1f3fe04ae79b948ae379cfa378793344c4132bd004bb7999f51adcbd611deb23",
+      "size": 32064434,
+      "sha256": "f2acafadfb88036014db094b0c806fa18507329c12cfc55d1ff4ffdae934c39d",
       "supports_updater": true,
       "notes": "新增自动更新与历史版本管理，保留自定义程序路径和文件名，改进代理兼容。"
     },
@@ -18,8 +18,8 @@
       "order": 33,
       "platform": "windows-x64",
       "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.3/OnionMinecraftLauncher-v0.3.3.exe",
-      "size": 31880350,
-      "sha256": "b19cb4e6dec891f6e02ef9fe7563173d0073efbaf161d92870e9a38dfdf4c36b",
+      "size": 31880062,
+      "sha256": "b96a698adce4438bdcfb9d56c7469e11ed02ee85f7cd22c3152026462b971b4e",
       "supports_updater": true,
       "notes": "新增自动更新与历史版本管理，保留自定义程序路径和文件名，改进代理兼容。"
     },
