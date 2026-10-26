@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "series": "public",
+      "version": "0.3.2",
+      "order": 32,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.2/OnionMinecraftLauncher-v0.3.2.exe",
+      "size": 31858231,
+      "sha256": "c93afc3a345f08ebc1af3c1b72842c4d1784f077d82c59618036081be11c2dff",
+      "notes": "优化外观 UI、列表与下载搜索，修复实例加载器安装和模组更新。"
+    },
+    {
+      "series": "thunion",
+      "version": "0.3.2-T",
+      "order": 32,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.2-T/OnionMinecraftLauncher-v0.3.2-T.exe",
+      "size": 32041906,
+      "sha256": "8fd3b4d3264eb391e52a322b0dd1d479e62ff7b0d7bf06b5c2f63fb42fd9d394",
+      "notes": "优化外观 UI、列表与下载搜索，修复实例加载器安装和模组更新。"
+    }
+  ]
+}

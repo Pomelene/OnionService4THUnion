@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Onion Launcher update manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "releases"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "releases": {
+      "type": "array",
+      "maxItems": 128,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["series", "version", "order", "platform", "url", "size", "sha256"],
+        "properties": {
+          "series": {"enum": ["public", "thunion"]},
+          "version": {"type": "string", "pattern": "^[0-9]+(?:\\.[0-9]+){1,3}(?:-T)?$"},
+          "order": {"type": "integer", "minimum": 1, "maximum": 9007199254740992},
+          "platform": {"const": "windows-x64"},
+          "url": {"type": "string", "format": "uri", "pattern": "^https://github\\.com/Pomelene/Onion-MC-Launcher/releases/download/v[^/?#]+/[^/?#]+\\.exe$"},
+          "size": {"type": "integer", "minimum": 1, "maximum": 268435456},
+          "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+          "notes": {"type": "string", "maxLength": 4000}
+        },
+        "allOf": [
+          {"if": {"properties": {"series": {"const": "public"}}}, "then": {"properties": {"version": {"pattern": "^[0-9]+(?:\\.[0-9]+){1,3}$"}}}},
+          {"if": {"properties": {"series": {"const": "thunion"}}}, "then": {"properties": {"version": {"pattern": "^[0-9]+(?:\\.[0-9]+){1,3}-T$"}}}}
+        ]
+      }
+    }
+  }
+}

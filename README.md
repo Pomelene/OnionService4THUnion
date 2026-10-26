@@ -18,6 +18,10 @@
 
 本仓库使用 MIT License。
 
+## 启动器版本控制
+
+`updates.json` 为公众版与 THUnion 版提供独立的版本号、排序和 EXE 下载信息，不影响社团目录。字段和发布步骤见 [UPDATES.md](UPDATES.md)，格式定义见 [updates.schema.json](updates.schema.json)。
+
 ## 部员分享
 
 “部员分享”置于服务目录首位，包含：
