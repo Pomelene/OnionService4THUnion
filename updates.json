@@ -2,14 +2,26 @@
   "schema_version": 1,
   "releases": [
     {
-      "series": "public",
-      "version": "0.3.2",
-      "order": 32,
+      "series": "thunion",
+      "version": "0.3.3-T",
+      "order": 33,
       "platform": "windows-x64",
-      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.2/OnionMinecraftLauncher-v0.3.2.exe",
-      "size": 31858231,
-      "sha256": "c93afc3a345f08ebc1af3c1b72842c4d1784f077d82c59618036081be11c2dff",
-      "notes": "优化外观 UI、列表与下载搜索，修复实例加载器安装和模组更新。"
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.3-T/OnionMinecraftLauncher-v0.3.3-T.exe",
+      "size": 32064722,
+      "sha256": "1f3fe04ae79b948ae379cfa378793344c4132bd004bb7999f51adcbd611deb23",
+      "supports_updater": true,
+      "notes": "新增自动更新与历史版本管理，保留自定义程序路径和文件名，改进代理兼容。"
+    },
+    {
+      "series": "public",
+      "version": "0.3.3",
+      "order": 33,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.3/OnionMinecraftLauncher-v0.3.3.exe",
+      "size": 31880350,
+      "sha256": "b19cb4e6dec891f6e02ef9fe7563173d0073efbaf161d92870e9a38dfdf4c36b",
+      "supports_updater": true,
+      "notes": "新增自动更新与历史版本管理，保留自定义程序路径和文件名，改进代理兼容。"
     },
     {
       "series": "thunion",
@@ -19,7 +31,129 @@
       "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.2-T/OnionMinecraftLauncher-v0.3.2-T.exe",
       "size": 32041906,
       "sha256": "8fd3b4d3264eb391e52a322b0dd1d479e62ff7b0d7bf06b5c2f63fb42fd9d394",
-      "notes": "优化外观 UI、列表与下载搜索，修复实例加载器安装和模组更新。"
+      "notes": "优化外观 UI、列表与下载搜索，修复实例加载器安装和模组更新。",
+      "supports_updater": false
+    },
+    {
+      "series": "public",
+      "version": "0.3.2",
+      "order": 32,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.2/OnionMinecraftLauncher-v0.3.2.exe",
+      "size": 31858231,
+      "sha256": "c93afc3a345f08ebc1af3c1b72842c4d1784f077d82c59618036081be11c2dff",
+      "notes": "优化外观 UI、列表与下载搜索，修复实例加载器安装和模组更新。",
+      "supports_updater": false
+    },
+    {
+      "series": "thunion",
+      "version": "0.3.1-T",
+      "order": 7,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.1-T/OnionMinecraftLauncher-v0.3.1-T.exe",
+      "size": 31902924,
+      "sha256": "6f271287b5fe1619195496ff61a2773cc758d5be055db13b1fb6754675299526",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.3.1-T。"
+    },
+    {
+      "series": "public",
+      "version": "0.3.1",
+      "order": 7,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.1/OnionMinecraftLauncher-v0.3.1.exe",
+      "size": 31719281,
+      "sha256": "a38eeb837a883e6b555cc286e47679449751a811517bca6f1a9b50ea33c14f1f",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.3.1。"
+    },
+    {
+      "series": "thunion",
+      "version": "0.3.0.1-T",
+      "order": 6,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.0.1-T/OnionMinecraftLauncher-v0.3.0.1-T.exe",
+      "size": 31872135,
+      "sha256": "3895970134bb8a065e2e502c382ae3e86833cd8265c55cc7790d565daf5cc0b7",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.3.0.1-T。"
+    },
+    {
+      "series": "public",
+      "version": "0.3.0.1",
+      "order": 6,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.0.1/OnionMinecraftLauncher-v0.3.0.1.exe",
+      "size": 31692098,
+      "sha256": "16f5441c20b6bf21399ceae935aa596c99cbb1942439fad66f382f6e0f5b4eb0",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.3.0.1。"
+    },
+    {
+      "series": "thunion",
+      "version": "0.3.0-T",
+      "order": 5,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.0-T/OnionMinecraftLauncher-v0.3.0-T.exe",
+      "size": 31870090,
+      "sha256": "82302ca48d843c9e72458a38ebccb30f4459bd7fe59ee704a846bab32de31e34",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.3.0-T。"
+    },
+    {
+      "series": "public",
+      "version": "0.3.0",
+      "order": 5,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.3.0/OnionMinecraftLauncher-v0.3.0.exe",
+      "size": 31686429,
+      "sha256": "a1f8e6ad933ac43a10b18ed42dfba9bf0a0a99115d9a49ff5a2cc2a053d163ef",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.3.0。"
+    },
+    {
+      "series": "public",
+      "version": "0.2.3",
+      "order": 4,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.2.3/OnionMinecraftLauncher-v0.2.3.exe",
+      "size": 30585998,
+      "sha256": "ef29044032e46e1db26ed257ad96a61de9841f90f071cc1d1c0df19904e3c1d3",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.2.3。"
+    },
+    {
+      "series": "public",
+      "version": "0.2.2",
+      "order": 3,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.2.2/OnionMinecraftLauncher-v0.2.2.exe",
+      "size": 30539768,
+      "sha256": "89118a91e1d0790e43d4fe5a5703604ef2e4214d2180f5d76167fab5ce202c5e",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.2.2。"
+    },
+    {
+      "series": "public",
+      "version": "0.2.1",
+      "order": 2,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.2.1/OnionMinecraftLauncher-v0.2.1.exe",
+      "size": 45338417,
+      "sha256": "d43434e964082c3a82afa27f07166c65a775508e63d480c12f6bb8d111eb7671",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.2.1。"
+    },
+    {
+      "series": "public",
+      "version": "0.2.0",
+      "order": 1,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.2.0/OnionMinecraftLauncher-v0.2.0.exe",
+      "size": 45286185,
+      "sha256": "d8b8dc43ca33e3ab79f9b4cce9a03b34bfbeb81ddfe9456abb72bde3988b3454",
+      "supports_updater": false,
+      "notes": "历史正式版本 0.2.0。"
     }
   ]
 }

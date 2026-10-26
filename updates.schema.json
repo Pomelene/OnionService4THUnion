@@ -21,7 +21,8 @@
           "url": {"type": "string", "format": "uri", "pattern": "^https://github\\.com/Pomelene/Onion-MC-Launcher/releases/download/v[^/?#]+/[^/?#]+\\.exe$"},
           "size": {"type": "integer", "minimum": 1, "maximum": 268435456},
           "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
-          "notes": {"type": "string", "maxLength": 4000}
+          "notes": {"type": "string", "maxLength": 4000},
+          "supports_updater": {"type": "boolean"}
         },
         "allOf": [
           {"if": {"properties": {"series": {"const": "public"}}}, "then": {"properties": {"version": {"pattern": "^[0-9]+(?:\\.[0-9]+){1,3}$"}}}},
