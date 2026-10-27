@@ -95,7 +95,7 @@
         {
           "id": "thunion-map",
           "title": "THUnion 在线地图",
-          "description": "查看服务器提供的在线地图，在网页中缩放、平移并浏览地图内容。",
+          "description": "查看服务器提供的在线地图，内含多维度信息和在线玩家位置统计。",
           "url": "http://map.thunion.club/"
         },
         {
