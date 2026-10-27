@@ -3,6 +3,28 @@
   "releases": [
     {
       "series": "thunion",
+      "version": "0.4.0-T",
+      "order": 40,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.4.0-T/OnionMinecraftLauncher-v0.4.0-T.exe",
+      "size": 32099962,
+      "sha256": "ee4825addb1198326c1116afbb2bd128f57e1960e948a713c46c23c8ba9bc6c7",
+      "supports_updater": true,
+      "notes": "新增实例、模组、数据包、截图与整合包管理能力，支持常见 MultiMC / Prism 导入和 Legacy Fabric 新实例安装，优化列表 UI 与运行保护。"
+    },
+    {
+      "series": "public",
+      "version": "0.4.0",
+      "order": 40,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.4.0/OnionMinecraftLauncher-v0.4.0.exe",
+      "size": 31915590,
+      "sha256": "e8282f1a48a71f0b1e4ae5f1b85b27d666140c20dba0a3474ec45295f87dd0ff",
+      "supports_updater": true,
+      "notes": "新增实例、模组、数据包、截图与整合包管理能力，支持常见 MultiMC / Prism 导入和 Legacy Fabric 新实例安装，优化列表 UI 与运行保护。"
+    },
+    {
+      "series": "thunion",
       "version": "0.3.3-T",
       "order": 33,
       "platform": "windows-x64",
