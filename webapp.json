@@ -10,7 +10,7 @@
         {
           "id": "thunion-basic-263",
           "title": "三周目快速上服基础包",
-          "description": "Minecraft 26.3 · Fabric 0.19.5。下载 263THUnionBasic.mrpack 后可导入启动器；文件从github提供。",
+          "description": "由部员github提供。",
           "url": "https://raw.githubusercontent.com/Pomelene/OnionService4THUnion/main/263THUnionBasic.mrpack",
           "action": "download",
           "filename": "263THUnionBasic.mrpack",
