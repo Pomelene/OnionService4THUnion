@@ -69,6 +69,18 @@
           "title": "THUnion Wiki",
           "description": "查看社团 Wiki 中的文档、说明与知识条目。点击在启动器内浏览 Wiki 网站。",
           "url": "http://wiki.thunion.club/"
+        },
+        {
+          "id": "thunion-wiki-industrial-guide",
+          "title": "三周目工业设施导引",
+          "description": "查看三周目工业设施的导引。",
+          "url": "http://www.lvss.xyz:14014/index.php?title=%E4%B8%89%E5%91%A8%E7%9B%AE%E5%B7%A5%E4%B8%9A%E8%AE%BE%E6%96%BD%E5%AF%BC%E5%BC%95"
+        },
+        {
+          "id": "thunion-wiki-department-rules",
+          "title": "部门规章制度",
+          "description": "查看部门规章制度。",
+          "url": "http://www.lvss.xyz:14014/index.php?title=%E9%83%A8%E9%97%A8%E8%A7%84%E7%AB%A0%E5%88%B6%E5%BA%A6"
         }
       ],
       "layout": "list",
