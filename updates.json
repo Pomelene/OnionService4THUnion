@@ -2,6 +2,28 @@
   "schema_version": 1,
   "releases": [
     {
+      "series": "public",
+      "version": "0.5.0",
+      "order": 50,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.5.0/Onion-v0.5.0.exe",
+      "size": 23765702,
+      "sha256": "292daf823ca286cff63fcc52242f159a5949554854c385e72d2ec0dc0d4583a0",
+      "supports_updater": true,
+      "notes": "优化性能与数据安全、压缩体积，改进更新文件名版本识别。"
+    },
+    {
+      "series": "thunion",
+      "version": "0.5.0-T",
+      "order": 50,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.5.0-T/Onion-v0.5.0-T.exe",
+      "size": 23925769,
+      "sha256": "1669e14231b9ef3642d65536573a4abf8f8c4a1477699ca368ee3881e4ea8d54",
+      "supports_updater": true,
+      "notes": "优化性能与数据安全、压缩体积，改进更新文件名版本识别。"
+    },
+    {
       "series": "thunion",
       "version": "0.4.0-T",
       "order": 40,
