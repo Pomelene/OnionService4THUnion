@@ -3,6 +3,28 @@
   "releases": [
     {
       "series": "public",
+      "version": "0.5.1",
+      "order": 51,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.5.1/Onion-v0.5.1.exe",
+      "size": 23834652,
+      "sha256": "3dfb31100822add44f793747c4b8be5d80c18bf037512e0bc37b6b9ff9f37a4a",
+      "supports_updater": true,
+      "notes": "新增加载器与下载支持，完善英文及语言热切换，统一双版本构建。"
+    },
+    {
+      "series": "thunion",
+      "version": "0.5.1-T",
+      "order": 51,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.5.1-T/Onion-v0.5.1-T.exe",
+      "size": 23980334,
+      "sha256": "fc79541b0710b1defb059a190163f0591086f90256fc01d48fce29a8f9610016",
+      "supports_updater": true,
+      "notes": "新增加载器与下载支持，完善英文及语言热切换，统一双版本构建。"
+    },
+    {
+      "series": "public",
       "version": "0.5.0",
       "order": 50,
       "platform": "windows-x64",
