@@ -3,6 +3,28 @@
   "releases": [
     {
       "series": "public",
+      "version": "0.5.2",
+      "order": 52,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.5.2/Onion-v0.5.2.exe",
+      "size": 23855050,
+      "sha256": "b666ca1fd0f913b79cb79b6004772d6ec8f8f977f35a8c012b3e83d3e2d6ca5d",
+      "supports_updater": true,
+      "notes": "改进下载与前置模组提示，修复报错弹窗布局。"
+    },
+    {
+      "series": "thunion",
+      "version": "0.5.2-T",
+      "order": 52,
+      "platform": "windows-x64",
+      "url": "https://github.com/Pomelene/Onion-MC-Launcher/releases/download/v0.5.2-T/Onion-v0.5.2-T.exe",
+      "size": 23958647,
+      "sha256": "241e6b85fd3ad58923a30cbc6a340459fa6243519b24ab09ede4d7c63166dfaf",
+      "supports_updater": true,
+      "notes": "改进下载与前置模组提示，修复报错弹窗布局。"
+    },
+    {
+      "series": "public",
       "version": "0.5.1",
       "order": 51,
       "platform": "windows-x64",
